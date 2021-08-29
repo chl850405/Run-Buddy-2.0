@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
 }
 
 body {
@@ -45,7 +45,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*Header/ Navbar Styles end*/
 
+/*Footer Styles Start*/
 footer {
     background: #fce138;
     width: 100%;
@@ -68,7 +70,9 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*End Footer Styles*/
 
+/*Style All Section Tags*/
 section {
     padding: 60px;
 }
@@ -99,7 +103,7 @@ section {
 }
 
 .hero-form p {
-    margin;5px 0 15px 0:
+    margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -123,38 +127,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-
 /* Hero Style End*/
-.intro {
-    text-align: center;
-}
 
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-}
-
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-}
-
-.intro p {
-    /* add this alonside your other declarations*/
-    margin: 0 auto;
-}
-
-.steps {
-    text-align: center;
-    background: #fce138;
-}
-
+/*Section Title Styles Start*/
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -170,6 +145,27 @@ section {
 
 .secondary-border {
     border-color: #39a6b2;
+}
+/*Section Title Styles End*/
+
+/*What We Do Styles*/
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+}
+/*What We Do Styles End*/
+
+/*What You Do Styles Start*/
+.steps {
+    text-align: center;
+    background: #fce138;
 }
 
 .steps div {
@@ -195,7 +191,9 @@ section {
 .steps span {
     font-size: 38px;
 }
+/*What You Do Styles End*/
 
+/*Meet The Trainers Styles Start*/
 .trainers {
     text-align: center;
 }
@@ -219,14 +217,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
 }
@@ -241,15 +231,7 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
-}
+/*Trainer Styles End*/
 
 /* REACH OUT STYLES START*/
 .contact {
@@ -290,4 +272,13 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+/*Reach Out Styles End*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
