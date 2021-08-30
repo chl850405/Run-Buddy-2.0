@@ -412,6 +412,7 @@ section {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .step-text {
